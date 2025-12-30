@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background: #0a1aff;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    height: 300px;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: white;
+    color: #1e3c72;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Products */
+.products {
+    padding: 40px;
+    text-align: center;
+}
+
+.product-box {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.product-box img {
+    width: 100%;
+}
+
+.product-box span {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #0a1aff;
+    font-weight: bold;
+}
+
+.product-box button {
+    padding: 8px 15px;
+    background: #0a1aff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* About & Contact */
+.about, .contact {
+    padding: 30px;
+    text-align: center;
+    background: #f4f4f4;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.dropdown-content{
+    display:none;
+    position: absolute;
+}
+.dropdown:hover .dropdown-content{
+    display: black;
+}
+.nav{
+    display: flex;
+   justify-content: space-evenly;
+   flex-direction:row
+   
+}
+.menu {
+  list-style: none;        /* លុបចំណុចខ្មៅ */
+  display: flex;           /* ធ្វើឲ្យវាផ្តេក */
+  gap: 20px;               /* ចន្លោះរវាងម៉ឺនុយ */
+  padding: 0;
+  margin: 0;
+}
+
+.menu li a {
+  text-decoration: none;  /* លុបបន្ទាត់ក្រោម */
+  color: white;           /* ពណ៌អក្សរ */
+  font-size: 16px;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end; /* រុញទៅស្តាំ */
+  gap: 50px;
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background: #0004ff;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu li a {
+  display: block;
+  padding: 15px 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background: #3700ff;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #0000fc;
+  list-style: none;
+  min-width: 160px;
+  display: none;
+}
+
+.dropdown-menu li a {
+  padding: 12px 20px;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}

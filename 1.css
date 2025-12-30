@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #5f075c, #2c0952);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: rgb(86, 9, 109);
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #667eea;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+
+.div img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;        /* កាត់រូបឲ្យមូល */
+  border-radius: 50%;
+}
+
+/* Image inside logo */
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* កុំឲ្យរូបបែក */
+}
+
+/* រំកិលឡើងលើ (optional) */
+.logo {
+  transform: translateY(-10px);
+}
+
+/* រំកិលទៅស្តាំ (optional) */
+.logo {
+  margin-left: 76px;
+}
